@@ -10,10 +10,11 @@ It's basic ~100 lines user friendly setup for Emacs beginners which provides com
 
 * Clojure mode
 * Paredit
-* Parentheses highlighting
+* Parentheses Highlighting
 * NREPL
 * Auto Completion
-* Lisp indentation
+* Lisp Indentation
+* [Tomorrow Theme](https://github.com/chriskempson/tomorrow-theme)
 
 ### Off by deafult
 
