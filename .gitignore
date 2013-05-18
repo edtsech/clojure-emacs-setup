@@ -1,0 +1,5 @@
+elpa/*.txt
+auto-save-list/*
+ac-comphist.dat
+*~
+.DS_Store

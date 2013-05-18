@@ -1,0 +1,35 @@
+2012-11-19  Leo Liu  <sdl.web@gmail.com>
+
+	* ack.el (ack-buffer-name-function): New user variable
+	
+	Thanks to scottj@irc.freenode.net for request and testing.
+
+2012-10-21  Leo Liu  <sdl.web@gmail.com>
+
+	* ack.el: Make minibuffer prompt more informative
+
+2012-10-08  Leo Liu  <sdl.web@gmail.com>
+
+	* README (Usage): Doc fix
+
+2012-10-08  Chong Yidong  <cyd@gnu.org>
+
+	Fix copyright headers for ack package
+
+2012-10-08  Chong Yidong  <cyd@gnu.org>
+
+	Convert packages/ack/README.rst to a package.el compatible README.
+	Tweak the description of the ack package in packages/ack/ack-pkg.el.
+
+2012-10-04  Leo Liu  <sdl.web@gmail.com>
+
+	Add file ack-pkg.el
+
+2012-10-04  Leo Liu  <sdl.web@gmail.com>
+
+	Sync ack.el and pcmpl-ack.el to version 0.8
+
+2012-10-01  Leo Liu  <sdl.web@gmail.com>
+
+	Add ack
+
