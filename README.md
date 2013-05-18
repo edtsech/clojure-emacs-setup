@@ -28,7 +28,7 @@ It's basic ~100 lines user friendly setup for Emacs beginners which provides com
   1. [Emacs for MacOS](http://emacsformacosx.com/)
   2. Linux
   3. Windows
-2. `git clone ... ~/.emacs.d`
+2. `git clone git@github.com:edtsech/clojure-emacs-setup.git ~/.emacs.d`
 
 If you need some help ping me on twitter([@edtsech](https://twitter.com/edtsech)) or send me an email.
 
