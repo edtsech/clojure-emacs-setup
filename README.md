@@ -80,3 +80,8 @@ Just use `tab` key.
 (put 'DELETE 'clojure-backtracking-indent '(2 2 2))
 (put 'PATCH 'clojure-backtracking-indent '(2 2 2))
 ```
+
+## Setups for other editors
+
+* [SublimeText](http://www.youtube.com/watch?v=wBl0rYXQdGg)
+* Vim ???
