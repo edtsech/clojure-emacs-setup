@@ -4,9 +4,7 @@ It's basic ~100 lines user friendly setup for Emacs beginners which provides com
 
 ![look](/image.png)
 
-## Features
-
-### Active
+## Plugins
 
 * Clojure mode
 * Paredit
