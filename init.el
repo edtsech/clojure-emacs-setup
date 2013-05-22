@@ -89,7 +89,7 @@
 (require 'whitespace)
 (add-hook 'after-save-hook 'whitespace-cleanup)
 (setq whitespace-line-column 90)
-highlight trainling spaces, empty lines and etc
+;; highlight trainling spaces, empty lines and etc
 (setq whitespace-style '(face empty tabs lines-tail trailing))
 (global-whitespace-mode t)
 
