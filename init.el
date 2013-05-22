@@ -31,10 +31,10 @@
 ;; (global-linum-mode t)
 
 ;; Vim-mode (Evil-mode)
-;; (require 'evil)
-;; (require 'evil-paredit)
-;; (evil-mode 1)
-;; (setq evil-default-cursor t)
+(require 'evil)
+(require 'evil-paredit)
+(evil-mode 1)
+(setq evil-default-cursor t)
 
 ;; Paredit
 (add-hook 'clojure-mode-hook 'paredit-mode)
@@ -86,9 +86,25 @@
 (setq-default truncate-lines t)
 
 ;; WHITESPACES
-;; (require 'whitespace)
-;; (add-hook 'after-save-hook 'whitespace-cleanup)
-;; (setq whitespace-line-column 90)
-;; highlight trainling spaces, empty lines and etc
-;; (setq whitespace-style '(face empty tabs lines-tail trailing))
-;; (global-whitespace-mode t)
+(require 'whitespace)
+(add-hook 'after-save-hook 'whitespace-cleanup)
+(setq whitespace-line-column 90)
+highlight trainling spaces, empty lines and etc
+(setq whitespace-style '(face empty tabs lines-tail trailing))
+(global-whitespace-mode t)
+
+;; INDENTATION
+;; Set Speclj indentaion
+(put 'describe 'clojure-backtracking-indent '(4 2))
+(put 'it 'clojure-backtracking-indent '(4 2))
+(put 'before 'clojure-backtracking-indent '(2))
+(put 'before-all 'clojure-backtracking-indent '(2))
+(put 'after-all 'clojure-backtracking-indent '(2))
+(put 'after 'clojure-backtracking-indent '(2))
+
+;; Set Compojure indentation
+(put 'GET 'clojure-backtracking-indent '(4 4 2))
+(put 'POST 'clojure-backtracking-indent '(4 4 2))
+(put 'PUT 'clojure-backtracking-indent '(4 4 2))
+(put 'DELETE 'clojure-backtracking-indent '(4 4 2))
+(put 'PATCH 'clojure-backtracking-indent '(4 4 2))
