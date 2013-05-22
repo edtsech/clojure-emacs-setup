@@ -85,6 +85,18 @@
 (setq tab-width 2)
 (setq-default truncate-lines t)
 
+;; Set parentheses color
+(defface esk-paren-face
+   '((((class color) (background dark))
+      (:foreground "grey40"))
+     (((class color) (background light))
+      (:foreground "grey55")))
+   "Face used to dim parentheses."
+   :group 'starter-kit-faces)
+
+(font-lock-add-keywords 'clojure-mode
+                        '(("(\\|)" . 'esk-paren-face)))
+
 ;; WHITESPACES
 (require 'whitespace)
 (add-hook 'after-save-hook 'whitespace-cleanup)
