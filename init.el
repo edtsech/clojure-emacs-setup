@@ -75,6 +75,9 @@
   '(progn
      (color-theme-initialize)
      ;; (color-theme-sanityinc-tomorrow-day)
+     ;; (color-theme-sanityinc-tomorrow-night)
+     ;; (color-theme-sanityinc-tomorrow-bright)
+     ;; (color-theme-sanityinc-tomorrow-blue)
      (color-theme-sanityinc-tomorrow-eighties)
      ))
 
