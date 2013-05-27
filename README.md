@@ -29,8 +29,6 @@ It's basic ~100 lines user friendly setup for Emacs beginners which provides com
   3. Windows
 2. `git clone git@github.com:edtsech/clojure-emacs-setup.git ~/.emacs.d`
 
-If you need some help ping me on twitter([@edtsech](https://twitter.com/edtsech)) or send me an email.
-
 ## Usage
 
 ### Emacs basics
@@ -80,6 +78,12 @@ Just use `tab` key.
 (put 'DELETE 'clojure-backtracking-indent '(2 2 2))
 (put 'PATCH 'clojure-backtracking-indent '(2 2 2))
 ```
+
+### Improvements
+
+If you have some ideas how to improve the setup, I'm happy to participate.
+And if you need some help or you have a problem ping me on twitter([@edtsech](https://twitter.com/edtsech)) 
+or send me an email.
 
 ## Setups for other editors
 
