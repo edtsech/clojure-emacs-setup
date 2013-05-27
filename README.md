@@ -79,7 +79,7 @@ Just use `tab` key.
 (put 'PATCH 'clojure-backtracking-indent '(2 2 2))
 ```
 
-### Improvements
+## Improvements
 
 If you have some ideas how to improve the setup, I'm happy to participate.
 And if you need some help or you have a problem ping me on twitter([@edtsech](https://twitter.com/edtsech)) 
