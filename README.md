@@ -2,7 +2,7 @@
 
 It's basic ~100 lines user friendly setup for Emacs beginners which provides comfortable Clojure development environment.
 
-![look](http://dl.dropboxusercontent.com/u/2428018/Screenshots/16.png)
+![look](https://dl.dropboxusercontent.com/u/2428018/Screenshots/1b.png)
 
 ## Plugins
 
