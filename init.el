@@ -47,7 +47,15 @@
   (lambda ()
     (highlight-parentheses-mode t)))
 
-(custom-set-variables '(hl-paren-colors (quote ("orange" "yellow" "greenyellow" "green" "springgreen" "cyan" "slateblue" "magenta" "purple"))))
+;; Classic Rainbow
+;; (custom-set-variables '(hl-paren-colors (quote ("orange" "yellow" "greenyellow" "green" "springgreen" "cyan" "slateblue" "magenta" "purple"))))
+;; Eighties Rainbow
+;; (custom-set-variables '(hl-paren-colors (quote ("#f2777a" "#f99157" "#ffcc66" "#99cc99" "#009999" "#99cccc" "#cc99cc"))))
+;; Night Rainbow
+;; (custom-set-variables '(hl-paren-colors (quote ("#cc6666" "#de935f" "#f0c674" "#b5bd68" "#8abeb7" "#81a2be" "#b294bb"))))
+;; Bright Rainbow
+(custom-set-variables '(hl-paren-colors (quote ("#d54e53" "#e78c45" "#e7c547" "#b9ca4a" "#70c0b1" "#7aa6da" "#c397d8"))))
+
 (add-hook 'clojure-mode-hook 'highlight-parentheses-mode)
 
 ;; Nrepl
@@ -73,12 +81,11 @@
 (require 'color-theme)
 (eval-after-load "color-theme"
   '(progn
-     (color-theme-initialize)
-     ;; (color-theme-sanityinc-tomorrow-day)
-     ;; (color-theme-sanityinc-tomorrow-night)
+     (color-theme-initialize)     
+     (color-theme-sanityinc-tomorrow-night)
      ;; (color-theme-sanityinc-tomorrow-bright)
      ;; (color-theme-sanityinc-tomorrow-blue)
-     (color-theme-sanityinc-tomorrow-eighties)
+     ;; (color-theme-sanityinc-tomorrow-eighties)
      ))
 
 (set-face-attribute 'default nil :height 120)
