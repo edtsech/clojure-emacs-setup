@@ -36,6 +36,10 @@
 ;; (evil-mode 1)
 ;; (setq evil-default-cursor t)
 
+;; Textmate mode
+(require 'textmate)
+(textmate-mode)
+
 ;; Paredit
 (add-hook 'clojure-mode-hook 'paredit-mode)
 (add-hook 'nrepl-mode-hook 'paredit-mode)

@@ -12,6 +12,7 @@ It's basic ~100 lines user friendly setup for Emacs beginners which provides com
 * NREPL
 * Auto Completion
 * Lisp Indentation
+* Textmate mode
 * [Tomorrow Theme](https://github.com/chriskempson/tomorrow-theme)
 
 ### Off by deafult
@@ -66,6 +67,12 @@ Just use `tab` key.
 4. `M-,` - return to your pre-jump location
 
 [NREPL Keyboard shortcuts](https://github.com/kingtim/nrepl.el#keyboard-shortcuts)
+
+#### Textmate mode
+
+1. `⌘t` - go to file
+2. `⌘l` - go to line
+3. `⌘/` - comment line
 
 ### Customize
 
