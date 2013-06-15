@@ -62,6 +62,8 @@ Just use `tab` key.
 
 1. `C-c M-j` or `M-x nrepl-jack-in` - connect to nREPL
 2. `C-M-x` - evaluate the top level form
+3. `M-.` - jump to the definition of a symbol
+4. `M-,` - return to your pre-jump location
 
 [NREPL Keyboard shortcuts](https://github.com/kingtim/nrepl.el#keyboard-shortcuts)
 
