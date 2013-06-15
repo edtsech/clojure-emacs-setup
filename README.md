@@ -74,6 +74,8 @@ Just use `tab` key.
 2. `⌘l` - go to line
 3. `⌘/` - comment line
 
+[Textmate mode README](https://github.com/defunkt/textmate.el/blob/master/README.markdown)
+
 ### Customize
 
 #### Indentation
